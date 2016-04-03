@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5090ddfb"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="2dp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:text="Location:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="30 Rockefeller Plaza New York, NY
+\nEntrance on 50th Street
+\nbetween Fifth and Sixth Avenues.
+\nPhone: (212)698-2000" />
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:paddingTop="10dp"
+                android:text="Hours of Operation:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="Daily from 8am - Midnight.
+\nThe last ticket is sold at 11pm and the last elevator goes up at 11:15pm.
+" />
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:paddingTop="10dp"
+                android:text="Tickets:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="Tickets start at $32 for adults,
+\n$26 for children 6-12 years of age
+\nand $30 for seniors.
+" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

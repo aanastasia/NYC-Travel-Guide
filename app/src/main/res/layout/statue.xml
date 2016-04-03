@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5090ddfb"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/statue2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/statue2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clickToStatueAdmission"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="onAdmissionStatueClick"
+            android:text="Admission"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="website"
+            android:text="Website"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="map"
+            android:text="Map"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/InformationStyle"
+            android:text="The Statue of Liberty National Monument welcomes thousands of people visiting daily.
+\n\nMade in Paris by the French sculptor Bartholdi, in collaboration with Gustave Eiffel (who was responsible for the steel framework), this towering monument to liberty was a gift from France on the centenary of American independence. Inaugurated in 1886, the sculpture stands at the entrance to New York Harbour and has welcomed millions of immigrants to the United States ever since.
+
+\n\nToday the Ellis Island Immigration Museum is part of the Statue of Liberty National Monument and is under the care of the National Parks Service. It is a place where visitors can spend hours learning about Ellis Island's history before, during, and after its use as America's immigration station. The museum also tells the stories of why so many people immigrated to America and what became of them after they arrived.
+
+\n\nAll visitors must purchase a ticket for ferry transportation to the parks. Tickets include access to both Liberty Island and Ellis Island. Tickets can be purchased in advance through our web site or in person at the ticket box offices near the ferry departure points in New York City and in New Jersey. Advanced purchases are highly recommended to avoid lines at the ticket offices and the chance that your preferred time will sell out.
+
+\n\nSecurity Screening - Visitors to the Statue of Liberty and Ellis Island must pass through security screening before boarding any ferry."/>
+
+    </ScrollView>
+
+</LinearLayout>
+

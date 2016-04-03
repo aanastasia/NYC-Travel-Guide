@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5090ddfb"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/top2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/top2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clickToTopAdmission"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="onAdmissionTopClick"
+            android:text="Admission"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="website"
+            android:text="Website"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="map"
+            android:text="Map"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/InformationStyle"
+            android:text="Discover Top of the Rock™ Observation Deck and experience breathtaking views of New York City and beyond. The excitement begins on the ground floor and mezzanine with a dazzling Swarovski crystal chandelier and multi-media exhibit full of the rich history, art and architecture of Rockefeller Center. Step on one of our glass ceiling sky shuttles for a thrilling ride to the Top, where you will find three stories of spectacular views, including a stunning, open air, 360-degree view from the 70th Floor outdoor deck.
+
+\n\nJohn D. Rockefeller, Jr. first opened the 70th floor Observation Deck atop 30 Rockefeller Plaza more than 70 years ago, to give something back to New Yorkers and their guests from around the world a place to appreciate and celebrate the city.
+
+\n\nThe Observation Deck's original design was inspired by the decks of the great ocean liners of the era, complete with deck chairs, gooseneck fixtures and vents inspired by a ship's stacks. A trip to the Observation Deck was like setting sail in the heart of the world's most dynamic city.
+"/>
+
+    </ScrollView>
+
+</LinearLayout>
+

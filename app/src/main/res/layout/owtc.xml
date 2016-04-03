@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5090ddfb"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/owtc2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/owtc2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clickToOWTCAdmission"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="onAdmissionOWTCClick"
+            android:text="Admission"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="website"
+            android:text="Website"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="map"
+            android:text="Map"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/InformationStyle"
+            android:text="Positioned on top of the tallest building in the Western Hemisphere, on levels 100, 101, and 102 of the 1,776 foot tall One World Trade Center building, One World Observatory™ provides unique, panoramic views of New York City, its most iconic sites, and surrounding waters.
+
+\n\nUpon entry, Guests are greeted in the Global Welcome Center, where a large video board features salutations in an array of languages, and a dynamically generated world map highlights the hometowns of visitors. All admission is timed ticket entry.
+
+\n\nGuests board one of five dedicated elevators to ascend to the 102nd floor in under 60 seconds. Immersive, floor-to-ceiling LED technology in each cab invites Guests to experience a virtual time-lapse that recreates the development of New York City’s skyline from the 1500s to present day.
+
+\n\nOn the 100th floor of the Observatory, also known as the Discovery Level, Guests experience expansive, 360-degree views in all directions, taking in the iconic sights, surrounding waters and panoramic views of the city and beyond.
+
+\n\nThe Main Observatory also features the Sky Portal. Guests are invited to step onto a 14-foot wide circular disc that delivers an unforgettable view, using real-time, high-definition footage of the streets below.
+
+\n\nOne World Observatory™ is located at One World Trade Center in the Northwest corner of the World Trade Center site and is bordered by West Street to the West, Vesey Street to the North and Liberty Street to the South
+" />
+
+    </ScrollView>
+
+</LinearLayout>
+

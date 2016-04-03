@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5090ddfb"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="2dp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:text="Location:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="Liberty Island
+\nNew York, NY 10004
+\n\nEllis Island
+\nNew York, NY
+\nPhone: (212) 363-3200" />
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:paddingTop="10dp"
+                android:text="Hours of Operation:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="FALL/WINTER/SPRING
+\nDaily: 9:00am-5:00pm
+\nClosed Christmas Day
+
+\n\nSUMMER (through Labor Day)
+\nMon-Fri: 8:30am-6:30pm
+\nSat-Sun: 8:30am-6:00pm" />
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:paddingTop="10dp"
+                android:text="Tickets:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="Adult: $18 \nSenior 62+: $14 \nChild 4-12: $9
+\nChild (0-3): Free Admission
+\n\nAudio tours are included with every ticket purchase. The Audio Tours are available for the Statue of Liberty National Monument and Ellis Island. The Audio Tour is available in different languages including Arabic, English, French, German, Italian, Japanese, Mandarin, Russian and Spanish.
+\n\nEllis Island Access Included With All Ticket Options.\nStatue Cruises Ferry Schedules for New York Departures from Battery Park and New Jersey Departures from Liberty State Park." />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

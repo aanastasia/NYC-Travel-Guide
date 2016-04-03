@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5090ddfb"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="2dp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:text="Location:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="59th to 110th Streets
+\nNew York, NY
+\nPhone: (212) 310-6600" />
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:paddingTop="10dp"
+                android:text="Hours of Operation:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="Regular Hours:\n6:00am until 1:00am" />
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:paddingTop="10dp"
+                android:text="Tickets:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="Free" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

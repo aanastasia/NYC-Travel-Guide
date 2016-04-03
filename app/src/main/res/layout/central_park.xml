@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5090ddfb"
+    android:orientation="vertical"
+   >
+
+    <ImageView
+        android:id="@+id/park2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/park2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clickToParkAdmission"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="onAdmissionParkClick"
+            android:text="Admission"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="website"
+            android:text="Website"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="map"
+            android:text="Map"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/InformationStyle"
+            android:text="New York's park of 843 acres, 26,000 trees, and almost 9,000 benches has had a rather checkered history. Planning began around 1868, when city commissioners chose the Greensward Plan developed by Frederick Law Olmsted and Calvert Vaux. In the ensuing decades of building, the challenging terrain wasn't the only obstacle to overcome. Navigating the difficult city bureaucracy and the Tammany Hall political machine made the Park an overly politicized institution. A long spiral of decline was halted in 1934, when Parks Commissioner Robert Moses employed his controversial methods in making remarkable changes to the decrepit park. From around 1960 until 1981, another twenty years of decline ensued, until the newly-formed Central Parks Conservancy offered a blueprint, Rebuilding Central Park for the 1980s and Beyond. The past 20 years have been much kinder to the Park, which has seen some remarkable reconstruction work.
+        \n\n275 species of birds have been sighted in the Park, which also has several restaurants on its perimeter, a Boathouse, a Carousel, ballfields, a running track, reservoir, sculptures of Alice in Wonderland and Shakespeare, and a nearly endless list of events and other attractions."/>
+
+    </ScrollView>
+
+</LinearLayout>
+

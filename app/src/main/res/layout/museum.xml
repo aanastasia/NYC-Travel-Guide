@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5090ddfb"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/museum2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/museum2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clickToMuseumAdmission"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="onAdmissionMuseumClick"
+            android:text="Admission"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="website"
+            android:text="Website"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="map"
+            android:text="Map"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/InformationStyle"
+            android:text="This world-famous museum is comprised of several different Halls, each dedicated to a particular theme. The museum's exhibition-halls house a stunning array of artifacts and specimens from all corners of the world and all historical periods. These illuminate the natural history of our planet and its myriad species, and bring the world's cultures to life.
+
+\n\nThe permanent exhibits include Halls dedicated to: Biodiversity, Human Biology and Evolution, Meteorites, Gems and Minerals, Ocean Life, Northwest Coast Indians, North American Mammals, African Mammals, African Peoples, Asian Peoples, Birds of the World, Oceanic Birds, South American Peoples, Mexico and Central America, Reptiles and Amphibians, Mollusks and Our World, Vertebrate Evolution"/>
+
+    </ScrollView>
+
+</LinearLayout>
+

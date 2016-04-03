@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#6aa0fb</item>
+        <item name="colorPrimaryDark">#3d77d8</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for header text shadow -->
+    <style name="HeaderTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">2.2</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <!-- Style for Admission -->
+    <style name="AdmissionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Style for Information -->
+    <style name="InformationStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">3dp</item>
+
+
+    </style>
+
+</resources>

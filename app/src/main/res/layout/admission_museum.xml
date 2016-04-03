@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5090ddfb"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="2dp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:text="Location:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="Central Park West at 79th Street
+\nNew York, NY 10024-5192
+\nPhone: (212)769-5100" />
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:paddingTop="10dp"
+                android:text="Hours of Operation:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="Open daily from 10 am-5:45 pm
+\nexcept on Thanksgiving and Christmas" />
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:paddingTop="10dp"
+                android:text="Tickets:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="Adult $22 \nChild (2-12) $12.50 \nSenior and Student $17
+\nSuggested general admission includes all 45 halls and the Rose Center for Earth and Space. If you wish to pay less than the suggested admission, you may purchase tickets at any ticket counter in the Museum." />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

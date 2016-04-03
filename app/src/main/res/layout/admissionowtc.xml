@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5090ddfb"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="2dp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:text="Location:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="One World Observatory™ is located at One World Trade Center in the Northwest corner of the World Trade Center site and is bordered by West Street to the West, Vesey Street to the North and Liberty Street to the South. \n\nThe street address is:
+\nOne World Trade Center
+\n285 Fulton Street
+\nNew York, New York, 10007
+\nEntrance on West Street
+\nPhone: (844) 696-1776
+\nAt the corner of West and Vesey Streets
+" />
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:paddingTop="10dp"
+                android:text="Hours of Operation:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="Regular Hours:\n9:00am until 8:00pm
+\n(last ticket sold at 7:15pm)
+\nOpen seven (7) days a week" />
+
+            <TextView
+                style="@style/AdmissionStyle"
+                android:paddingTop="10dp"
+                android:text="Tickets:" />
+
+            <TextView
+                style="@style/InformationStyle"
+                android:text="Adult $32, Senior $30, Child $26
+\nAll admission is timed ticket entry." />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

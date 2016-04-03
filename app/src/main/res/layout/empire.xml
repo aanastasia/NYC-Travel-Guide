@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5090ddfb"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/empire2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/empire2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clickToEmpireAdmission"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="onAdmissionEmpireClick"
+            android:text="Admission"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="website"
+            android:text="Website"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="#7ad2f4"
+            android:onClick="map"
+            android:text="Map"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+           style="@style/InformationStyle"
+            android:text="The legendary building soaring more than 100 stories over Manhattan's skyline made famous by the movie King Kong, the Empire State Building was for 40 years the world's tallest building. Its gorgeous Art Deco details and beautiful marble lobby make it the perfect stop for visitors, for the building captures the very essence of New York: huge, full of people, and breathtaking. Now in its 75th year, it remaining as spectacular and enchanting as ever.
+
+\n\nRide up the elevator to the 86th floor observatory, maybe stop a moment to pick up a souvenir, then go outside for incredible panoramic views of the New York area. Marvel at the glittering roof of the nearby Chrysler Building or the neat, rectangular shaped of Central Park. Stare out at the famous bridges that span the East River. At, 1,050 feet (320 meters), reached by high speed, automatic elevators, it has both a glass-enclosed area, which is heated in winter and cooled in summer, and spacious outdoor promenades on all four sides of the Building. Maybe it's not as dramatic as it might be if there were no enclosure-there is no wind howling around you here, and you don't hear the sounds of the city more than 1,000 feet below you-but you'll find it a pleasant space, particularly when it is chilly or raining outside.
+
+\n\nHigh powered binoculars are available on the promenades for the convenience of visitors at a minimal cost. A snack bar and souvenir counters are also located in the 86th floor observatory. The 86th floor observatory is handicap accessible.
+
+\n\nFor a romantic evening, why not go up at night? The last elevator runs at 11:15 pm.
+"/>
+
+    </ScrollView>
+
+</LinearLayout>
+
