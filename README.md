@@ -5,6 +5,7 @@ Main screen will appear after opening the application
 It shows the beautiful view of New York and the button "Find out more"
 
 After clicking on button appears set of the most attractive places in the city, such as:
+
 -One World Trade Center Observatory;
 
 -Top of THe Rock Observation Deck;
