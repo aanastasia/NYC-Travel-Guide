@@ -17,6 +17,7 @@ After clicking on button appears set of the most attractive places in the city, 
 -American Museum of Natural History;
 
 -Central Park.
+
 User can scroll the screen to see all these options.
 
 By clicking on each name of the place appears new window with the additional photo of that place, 
