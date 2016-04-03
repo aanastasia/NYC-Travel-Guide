@@ -8,7 +8,7 @@ After clicking on button appears set of the most attractive places in the city, 
 
 -One World Trade Center Observatory;
 
--Top of THe Rock Observation Deck;
+-Top of The Rock Observation Deck;
 
 -Empire State Building;
 
