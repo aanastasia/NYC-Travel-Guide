@@ -22,6 +22,7 @@ By clicking on each name of the place appears new window with the additional pho
 3 buttons (with options: Admission, Website, Map) and text information about that place and the ability to scroll the screen.
 
 By clicking on button "Admission" - appears new window (with the ability to scroll) with the information about:
+
 -Location;
 
 -Hours of operation;
